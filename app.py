@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = "AIzaSyCTtLn3Cvfs6bVlZQQBXx_0Vfqjfqg3TKU"  # Replace with secure method for production
+API_KEY = ""  # Replace with secure method for production
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
