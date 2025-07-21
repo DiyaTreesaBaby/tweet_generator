@@ -152,9 +152,9 @@
 
       loadingDiv.innerHTML = '';
       if (data.tweet) {
-        outputDiv.innerHTML = `✅ <strong>Your Tweet:</strong><br><br>${data.tweet}`;
+        outputDiv.innerHTML = ` <strong>Your Tweet:</strong><br><br>${data.tweet}`;
       } else {
-        outputDiv.innerHTML = `<span style="color:red;">❌ Error: ${data.error}</span>`;
+        outputDiv.innerHTML = `<span style="color:red;"> Error: ${data.error}</span>`;
       }
     }
   </script>
